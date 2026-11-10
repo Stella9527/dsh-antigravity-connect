@@ -1,4 +1,4 @@
-# Antigravity Connect
+# dsh-antigravity-connect
 
 把本机已经登录的 Google Antigravity 会话直接接成 DeepSeek Harness 的模型提供商。
 **不需要打开 Google Cloud Console，不需要创建或选择项目，也不需要创建 OAuth 客户端 ID。**
@@ -56,6 +56,21 @@ node scripts/smoke.mjs gemini-3.8-flash-tiered
 ```
 
 看到 `ANTIGRAVITY OK` 即认证与生成都正常。`scripts/smoke.mjs` 不依赖 DSH，可单独运行。
+
+## 测试用例
+
+### 模型选择器与 Gemini 3.8 Flash 对话
+
+![Antigravity 模型选择器](docs/model-picker.webp)
+
+截图验证的内容：
+
+- 安装插件后，模型选择器出现 **Antigravity** 分组，与 DeepSeek 账号分组并列；
+- 分组内完整列出 6 个模型：Gemini 3.8 Flash、Gemini 3.5 Flash Lite、Gemini 3 Flash、Claude Sonnet 4.6、Claude Opus 4.6、GPT-OSS 120B；
+- 选中 **Gemini 3.8 Flash** 后提问“你现在是什么模型”，模型正确自述为 Gemini 3.8 Flash，说明请求确实路由到了 Antigravity 的 Cloud Code Assist，而不是回落到 DeepSeek；
+- 底部状态栏显示 `Gemini 3.8 Flash Default`，与选择器中的选中项一致。
+
+该用例不涉及任何 Google Cloud Console 操作：认证完全来自本机已登录的 Antigravity 会话。
 
 ## 故障排查
 

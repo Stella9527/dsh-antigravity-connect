@@ -19,7 +19,8 @@
     "icon.svg",
     "README.md",
     "NOTICE",
-    "LICENSE"
+    "LICENSE",
+    "docs"
   ],
   "keywords": [
     "dsh-plugin",
