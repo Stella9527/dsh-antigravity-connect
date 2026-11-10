@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Antigravity",
+    "description": "直接复用本机 Antigravity 的登录状态，把 Gemini、Claude、GPT-OSS 接成 Harness 模型，无需操作 Google Cloud Console。"
+  }
+}

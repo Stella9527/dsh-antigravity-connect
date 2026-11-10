@@ -1,0 +1,13 @@
+Antigravity Connect
+Copyright 2026
+
+This product includes software derived from dsh-gemini-connect
+(https://github.com/kevihq/dsh-gemini-connect), licensed under the
+Apache License, Version 2.0.
+
+The OAuth refresh flow, Cloud Code Assist request shape, and SSE-to-pi-ai
+event translation in src/auth.js and src/cloud-code.js are adapted from that
+project.
+
+Antigravity Connect is unofficial and is not affiliated with Google,
+DeepSeek, or DeepSeek Harness.

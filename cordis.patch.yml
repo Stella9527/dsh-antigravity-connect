@@ -1,0 +1,5 @@
+- insert:
+    - id: llm-antigravity
+      name: dsh-antigravity-connect
+      config:
+        projectId: ''

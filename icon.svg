@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Antigravity Connect">
+  <defs>
+    <linearGradient id="g" x1="32" y1="24" x2="224" y2="232" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5b8cff"/>
+      <stop offset="0.55" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="#0b1020"/>
+  <path d="M128 40c8 0 15 4 19 11l74 132c4 7 4 15 0 22s-11 11-19 11H54c-8 0-15-4-19-11s-4-15 0-22L109 51c4-7 11-11 19-11Z" fill="none" stroke="url(#g)" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M86 184l42-96 42 96" fill="none" stroke="url(#g)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="128" cy="196" r="10" fill="url(#g)"/>
+</svg>

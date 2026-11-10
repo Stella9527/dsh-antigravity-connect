@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Antigravity",
+    "description": "Use the locally signed-in Antigravity session as Harness models — Gemini, Claude, and GPT-OSS, with no Google Cloud Console setup."
+  }
+}
